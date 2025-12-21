@@ -5,10 +5,73 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>티움 - 모종의 차이가 수확의 차이를 만듭니다</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
+    /* Font Imports */
+    @import url('//fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
+
+    @font-face {
+      font-family: 'Paperlogy';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2') format('woff2');
+      font-weight: 100;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Paperlogy';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-2ExtraLight.woff2') format('woff2');
+      font-weight: 200;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Paperlogy';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2') format('woff2');
+      font-weight: 300;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Paperlogy';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+      font-weight: 400;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Paperlogy';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
+      font-weight: 500;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Paperlogy';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');
+      font-weight: 600;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Paperlogy';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
+      font-weight: 700;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Paperlogy';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+      font-weight: 800;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Paperlogy';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-9Black.woff2') format('woff2');
+      font-weight: 900;
+      font-display: swap;
+    }
+
     :root {
       --primary: #4a5942;
       --secondary: #6b8e5a;
@@ -37,7 +100,8 @@
     }
 
     body {
-      font-family: 'Noto Sans KR', sans-serif;
+      font-family: 'Paperlogy', sans-serif;
+      font-weight: 400;
       color: var(--text-dark);
       line-height: 1.6;
       overflow-x: hidden;
@@ -68,6 +132,11 @@
       margin: 0 auto;
       padding: 0 20px;
       width: 100%;
+    }
+
+    /* Font Utility Classes */
+    .font-myeongjo {
+      font-family: 'Nanum Myeongjo', serif;
     }
 
     /* ==================== Header ==================== */
