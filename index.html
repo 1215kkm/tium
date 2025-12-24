@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>티움 - 모종의 차이가 수확의 차이를 만듭니다</title>
+  <link rel="stylesheet" href="css/tium.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header-left">
+      <a href="/" class="logo">
+        <figure class="logo-symbol">
+          <img src="/images/logo.png" alt="">
+        </figure>
+      </a>
+      <nav class="nav-menu" role="navigation" aria-label="메인 메뉴">
+        <ul style="display: flex; gap: 32px;">
+          <li class="nav-item"><a href="/shopinfo/company.html" class="nav-link">티움 소개</a></li>
+          <li class="nav-item"><a href="/product/list.html?cate_no=24" class="nav-link">상품</a></li>
+          <li class="nav-item"><a href="/shopinfo/technology.html" class="nav-link">재배기술 &amp; 노하우</a></li>
+          <li class="nav-item"><a href="/shopinfo/customer.html" class="nav-link">고객 지원</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-icons">
+        <div module="Layout_statelogoff">
+
+              <a href="#" class="header-icon" aria-label="검색"><img src="/images/icon_search_w.png" alt=""></a>
+              <a href="/myshop/index.html" class="header-icon login" aria-label="로그인">
+                로그인
+              </a>
+              <a href="/myshop/wish_list.html" class="header-icon" aria-label="위시리스트"><img src="/images/icon_wish_w.png" alt=""></a>
+              <a href="/order/basket.html" class="header-icon cart" aria-label="장바구니">
+                <img src="/images/icon_basket_w.png" alt="">
+                <span class="cart-badge">3</span>
+              </a>
+            
+        </div>
+        
+        
+        
+        <div module="Layout_stateLogon">
+
+              <a href="#" class="header-icon" aria-label="검색"><img src="/images/icon_search_w.png" alt=""></a>
+              <a href="/myshop/index.html" class="header-icon" aria-label="로그아웃"><img src="/images/icon_login_w.png" alt=""></a>
+              <a href="/myshop/wish_list.html" class="header-icon" aria-label="위시리스트"><img src="/images/icon_wish_w.png" alt=""></a>
+              <a href="/order/basket.html" class="header-icon cart" aria-label="장바구니">
+                <img src="/images/icon_basket_w.png" alt="">
+                <span class="cart-badge">3</span>
+              </a>
+            
+        </div>
+    </div>
+    <button class="mobile-menu-btn" aria-label="메뉴 열기" onclick="toggleMobileMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- Mobile Menu -->
+  <nav class="mobile-menu" id="mobileMenu" role="navigation" aria-label="모바일 메뉴">
+    <button class="mobile-menu-close" onclick="toggleMobileMenu()" aria-label="메뉴 닫기">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+    <a href="#about" onclick="toggleMobileMenu()">티움 소개</a>
+    <a href="#products" onclick="toggleMobileMenu()">상품</a>
+    <a href="#knowhow" onclick="toggleMobileMenu()">재배기술 &amp; 노하우</a>
+    <a href="#support" onclick="toggleMobileMenu()">고객 지원</a>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <article class="hero-content">
+        <h1 class="hero-title">
+          모종의 차이가<br>수확의 차이를 만듭니다
+        </h1>
+        <p class="hero-subtitle">티움의 모종은 차별화된 품질과 기술력으로 농가의 경쟁력을 키웁니다.</p>
+        <div class="hero-buttons">
+          <a href="#products" class="btn btn-primary">모종 둘러보기</a>
+          <a href="#knowhow" class="btn btn-outline">재배 가이드</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-inner">
+        <article class="about-content fade-in-left">
+          <span class="badge badge-dark">
+            <img src="images/logo_leap.png" alt="">
+            <span>About Tium</span>
+          </span>
+          <h2 class="about-title">티움의 미래, 한결같은 품질로 답하다</h2>
+          <div class="about-divider"></div>
+          <p class="about-text">
+            20년간 농사를 지으며 땅과 식물을 이해해 온 경험을 바탕으로, 지난 18년간 한결같은 마음으로 건강한 모종을 키워왔습니다.<br>
+            티움의 오랜 시간 쌓아온 노하우와 정직한 생산 과정을 통해 균일한 생육, 뛰어난 활착률, 검증된 품종 관리로 농가의 안정적인 수확을 지원하고 있습니다.<br><br>
+            그동안 쌓아온 기술력과 고객과의 신뢰를 바탕으로 농가의 성공을 함께 설계하는 든든한 파트너로 성장하고자 합니다.
+          </p>
+          <ul class="stats-list">
+            <li class="stat-item">
+              <p class="stat-number" data-target="18">18+</p>
+              <p class="stat-label">Years Experience</p>
+            </li>
+            <li class="stat-item">
+              <p class="stat-number">100%</p>
+              <p class="stat-label">Organic Growing</p>
+            </li>
+            <li class="stat-item">
+              <p class="stat-number" data-target="5000">5,000+</p>
+              <p class="stat-label">Happy Customers</p>
+            </li>
+          </ul>
+        </article>
+        <figure class="about-image fade-in-right">
+          <img src="/images/sec1_img1.png" alt="티움 온실">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+      <div class="products-inner">
+        <header class="section-header fade-in">
+          <span class="badge badge-light">
+            <img src="/images/icon01.png" alt="">
+            <span>Products</span>
+          </span>
+          <h2 class="section-title">추천 상품</h2>
+          <p class="section-subtitle">지금 가장 추천드리는 건강한 모종들을 만나보세요.</p>
+        </header>
+
+        <ul class="products-grid">
+          <li class="product-card fade-in">
+            <figure class="product-image">
+              <img src="/images/prod01.png" alt="">
+              <button class="product-wishlist" aria-label="위시리스트 추가">
+                <svg width="54" height="24" viewBox="0 0 54 24" fill="none">
+                  <rect width="54" height="24" rx="12" fill="white" fill-opacity="0.8"/>
+                  <path d="M27 20.35l-1.45-1.32C20.4 14.36 17 11.27 17 7.5 17 4.41 19.42 2 22.5 2c1.74 0 3.41.81 4.5 2.08C28.09 2.81 29.76 2 31.5 2 34.58 2 37 4.41 37 7.5c0 3.77-3.4 6.86-8.55 11.53L27 20.35z" fill="#888"/>
+                </svg>
+              </button>
+            </figure>
+            <article class="product-info">
+              <header class="product-header">
+                <h3 class="product-name">애플수박모종</h3>
+                <span class="product-badge hot">HOT</span>
+              </header>
+              <p class="product-desc">접목 애플수박모종 1개 / 대량주문가능</p>
+              <div class="product-price-wrapper">
+                <del class="product-original-price">5000원</del>
+                <div class="product-price-row">
+                  <p class="product-price">2,500<span>원</span></p>
+                  <p class="product-discount">50%</p>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="product-card fade-in">
+            <figure class="product-image">
+              <img src="/images/prod02.png" alt="">
+              <button class="product-wishlist" aria-label="위시리스트 추가">
+                <svg width="54" height="24" viewBox="0 0 54 24" fill="none">
+                  <rect width="54" height="24" rx="12" fill="white" fill-opacity="0.8"/>
+                  <path d="M27 20.35l-1.45-1.32C20.4 14.36 17 11.27 17 7.5 17 4.41 19.42 2 22.5 2c1.74 0 3.41.81 4.5 2.08C28.09 2.81 29.76 2 31.5 2 34.58 2 37 4.41 37 7.5c0 3.77-3.4 6.86-8.55 11.53L27 20.35z" fill="#888"/>
+                </svg>
+              </button>
+            </figure>
+            <article class="product-info">
+              <header class="product-header">
+                <h3 class="product-name">고추모종</h3>
+              </header>
+              <p class="product-desc">고춧가루용 고추모종 / 대량주문가능</p>
+              <div class="product-price-wrapper">
+                <div class="product-price-row">
+                  <p class="product-price">2,000<span>원</span></p>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="product-card fade-in">
+            <figure class="product-image">
+              <img src="/images/prod01.png" alt="">
+              <button class="product-wishlist" aria-label="위시리스트 추가">
+                <svg width="54" height="24" viewBox="0 0 54 24" fill="none">
+                  <rect width="54" height="24" rx="12" fill="white" fill-opacity="0.8"/>
+                  <path d="M27 20.35l-1.45-1.32C20.4 14.36 17 11.27 17 7.5 17 4.41 19.42 2 22.5 2c1.74 0 3.41.81 4.5 2.08C28.09 2.81 29.76 2 31.5 2 34.58 2 37 4.41 37 7.5c0 3.77-3.4 6.86-8.55 11.53L27 20.35z" fill="#888"/>
+                </svg>
+              </button>
+            </figure>
+            <article class="product-info">
+              <header class="product-header">
+                <h3 class="product-name">고추모종</h3>
+              </header>
+              <p class="product-desc">고춧가루용 고추모종 / 대량주문가능</p>
+              <div class="product-price-wrapper">
+                <div class="product-price-row">
+                  <p class="product-price">2,000<span>원</span></p>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="product-card fade-in">
+            <figure class="product-image">
+              <img src="/images/prod02.png" alt="">
+              <button class="product-wishlist" aria-label="위시리스트 추가">
+                <svg width="54" height="24" viewBox="0 0 54 24" fill="none">
+                  <rect width="54" height="24" rx="12" fill="white" fill-opacity="0.8"/>
+                  <path d="M27 20.35l-1.45-1.32C20.4 14.36 17 11.27 17 7.5 17 4.41 19.42 2 22.5 2c1.74 0 3.41.81 4.5 2.08C28.09 2.81 29.76 2 31.5 2 34.58 2 37 4.41 37 7.5c0 3.77-3.4 6.86-8.55 11.53L27 20.35z" fill="#888"/>
+                </svg>
+              </button>
+            </figure>
+            <article class="product-info">
+              <header class="product-header">
+                <h3 class="product-name">애플수박모종</h3>
+                <span class="product-badge hot">HOT</span>
+              </header>
+              <p class="product-desc">접목 애플수박모종 1개 / 대량주문가능</p>
+              <div class="product-price-wrapper">
+                <del class="product-original-price">5000원</del>
+                <div class="product-price-row">
+                  <p class="product-price">2,500<span>원</span></p>
+                  <p class="product-discount">50%</p>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+
+        <footer class="products-footer">
+          <a href="#" class="btn btn-dark">
+            전체 모종 보기
+            <img src="/images/icon_arrow_right.png" alt="">
+          </a>
+        </footer>
+      </div>
+    </section>
+
+    <!-- Knowhow Section -->
+    <section class="knowhow" id="knowhow">
+      <div class="knowhow-inner">
+        <header class="knowhow-header fade-in">
+          <span class="badge badge-light">
+            <img src="/images/icon02.png" alt="">
+            <span>Know-how</span>
+          </span>
+          <h2 class="section-title">재배 노하우</h2>
+          <p class="section-subtitle">건강한 수확을 위한 티움의 전문 재배 가이드를 만나보세요</p>
+        </header>
+
+        <ul class="knowhow-grid">
+          <li class="knowhow-card fade-in">
+            <figure class="knowhow-icon blue">
+              <img src="/images/icon03.png" alt="">
+            </figure>
+            <h3>물주기 가이드</h3>
+            <p>식물마다 다른 물의 양과 주기를 확인하세요. 과습과 건조를 방지 하는 방법을 안내합니다.</p>
+            <a href="#" class="knowhow-link">
+              자세히 보기
+              <svg viewBox="0 0 12 14" fill="none">
+                <path d="M1 7h10M7 1l5 6-5 6" stroke="#4a5942" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </li>
+
+          <li class="knowhow-card fade-in">
+            <figure class="knowhow-icon yellow">
+              <img src="/images/icon04.png" alt="">
+            </figure>
+            <h3>토양 관리</h3>
+            <p>건강한 뿌리를 위한 토양 선택과 관리법. 유기농 퇴비 사용법까지 상세히 안내합니다.</p>
+            <a href="#" class="knowhow-link">
+              자세히 보기
+              <svg viewBox="0 0 12 14" fill="none">
+                <path d="M1 7h10M7 1l5 6-5 6" stroke="#4a5942" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </li>
+
+          <li class="knowhow-card fade-in">
+            <figure class="knowhow-icon red">
+              <img src="/images/icon05.png" alt="">
+            </figure>
+            <h3>병해충 관리</h3>
+            <p>자연 친화적인 방법으로 병해충을 예방하고 관리하는 노하우를 공유합니다.</p>
+            <a href="#" class="knowhow-link">
+              자세히 보기
+              <svg viewBox="0 0 12 14" fill="none">
+                <path d="M1 7h10M7 1l5 6-5 6" stroke="#4a5942" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </li>
+
+          <li class="knowhow-card fade-in">
+            <figure class="knowhow-icon lime">
+              <img src="/images/icon06.png" alt="">
+            </figure>
+            <h3>햇빛 관리</h3>
+            <p>식물별 필요한 일조량과 배치 위치. 실내외 재배 시 주의사항을 확인하세요.</p>
+            <a href="#" class="knowhow-link">
+              자세히 보기
+              <svg viewBox="0 0 12 14" fill="none">
+                <path d="M1 7h10M7 1l5 6-5 6" stroke="#4a5942" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <aside class="download-banner fade-in">
+          <div class="download-banner-inner">
+            <article class="download-content">
+              <h3>재배 일지 다운로드</h3>
+              <p>체계적인 재배 관리를 위한 무료 재배 일지 템플릿을 다운로드하세요.<br>물 주기, 비료, 수확 시기를 기록하며 더 나은 수확을 경험하실 수 있습니다.</p>
+              <a href="#" class="btn-download">
+                <img src="images/icon07.png" alt="">
+                PDF 다운로드
+              </a>
+            </article>
+            <figure class="download-visual">
+              <img src="images/icon08.png" alt="">
+            </figure>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="support" id="support">
+      <div class="support-inner">
+        <header class="support-header fade-in">
+          <span class="badge badge-light">
+            <svg width="18" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="#6b8e5a" stroke-width="2"/>
+            </svg>
+            <span>Customer Support</span>
+          </span>
+          <h2 class="section-title">고객 지원</h2>
+          <p class="section-subtitle">궁금한 점이 있으시면 언제든지 친절하게 안내해드립니다.</p>
+        </header>
+
+        <ul class="support-grid">
+          <li class="support-card fade-in">
+            <figure class="support-icon">
+              <svg viewBox="0 0 24 24">
+                <img src="images/icon09.png" alt="">
+              </svg>
+            </figure>
+            <h3>전화 상담</h3>
+            <p class="time">평일 9:00 - 18:00</p>
+            <p class="contact">031-123-4567</p>
+          </li>
+
+          <li class="support-card fade-in">
+            <figure class="support-icon">
+              <img src="images/icon10.png" alt="">
+            </figure>
+            <h3>온라인 상담</h3>
+            <p class="time">1:1 문의 / FAQ 게시판</p>
+            <a href="#" class="contact">문의 남기기</a>
+          </li>
+
+          <li class="support-card fade-in">
+            <figure class="support-icon">
+              <img src="images/icon11.png" alt="">
+            </figure>
+            <h3>배송 안내</h3>
+            <p class="time">전국 당일/익일 배송</p>
+            <p class="contact">무료배송 3만원 이상</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+      <div class="location-inner">
+        <article class="location-content fade-in-left">
+          <h2 class="location-title">찾아오시는 길</h2>
+          <address class="location-info">
+            <div class="location-item">
+              <figure class="location-item-icon">
+                <img src="images/icon12.png" alt="">
+              </figure>
+              <div class="location-item-content">
+                <h4>주소</h4>
+                <p>충청북도 이월면 진광로 487-91</p>
+              </div>
+            </div>
+
+            <div class="location-item">
+              <figure class="location-item-icon">
+                <img src="images/icon13.png" alt="">
+              </figure>
+              <div class="location-item-content">
+                <h4>운영시간</h4>
+                <p>평일 08:00 - 17:00<br>토요일 09:00 - 15:00</p>
+              </div>
+            </div>
+
+            <div class="location-item">
+              <figure class="location-item-icon">
+                <img src="images/icon14.png" alt="">
+              </figure>
+              <div class="location-item-content">
+                <h4>교통편</h4>
+                <p>청호나이스 맞은편 동우주유소 가기전 골목 해광 정문을 지나 100m 직진</p>
+              </div>
+            </div>
+          </address>
+        </article>
+
+        <figure class="location-map fade-in-right">
+          <!--
+            * 카카오맵 - 약도서비스
+            * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+            * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+          -->
+          <!-- 1. 약도 노드 -->
+          <div id="daumRoughmapContainer1766403262992" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+          <!-- 2. 설치 스크립트 -->
+          <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+          <!-- 3. 실행 스크립트 -->
+          <script charset="UTF-8">
+            new daum.roughmap.Lander({
+              "timestamp" : "1766403262992",
+              "key" : "ebswipjs3nw",
+              "mapWidth" : "640",
+              "mapHeight" : "410"
+            }).render();
+          </script>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <article class="footer-brand">
+        <a href="#" class="logo">
+          <figure class="logo-symbol">
+            <img src="/images/logo.png" alt="">
+          </figure>
+        </a>
+        <nav class="footer-social" aria-label="소셜 미디어">
+          <a href="#" aria-label="Facebook"><img src="/images/icon_facebook.png" alt=""></a>
+          <a href="#" aria-label="Instagram"><img src="/images/icon_insta.png" alt=""></a>
+          <a href="#" aria-label="YouTube"><img src="/images/icon_youtube.png" alt=""></a>
+        </nav>
+      </article>
+
+      <article class="footer-column">
+        <h4>회사 정보</h4>
+        <ul class="footer-links">
+          <li><span>티움프러그 농업회사법인</span></li>
+          <li><span>사업자 등록 번호 123-45-67890</span></li>
+          <li><span>충청북도 이월면 진광로 487-91</span></li>
+          <li><span>043-534-2557</span></li>
+        </ul>
+      </article>
+
+      <article class="footer-column">
+        <h4>정책</h4>
+        <ul class="footer-links">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
+          <li><a href="#">교환/ 환불 정책</a></li>
+        </ul>
+      </article>
+
+      <article class="footer-column">
+        <h4>고객 센터</h4>
+        <ul class="footer-links">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">1:1 문의</a></li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copyright">&copy; 2025 Tium Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Menu Toggle
+    function toggleMobileMenu() {
+      const mobileMenu = document.getElementById('mobileMenu');
+      mobileMenu.classList.toggle('active');
+      document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+    }
+
+    // Sticky Header on Scroll
+    const header = document.getElementById('header');
+    let lastScrollY = 0;
+    window.addEventListener('scroll', () => {
+      const currentScrollY = window.scrollY;
+
+      // header 요소 찾기
+      const header = document.querySelector('.header');
+
+      // header-icons 안의 모든 img 요소 찾기
+      const icons = document.querySelectorAll('.header-icons img');
+
+      // 스크롤 위치가 100px 이상이면 이미지 변경
+      if (currentScrollY > 100) {
+        header.classList.add('sticky');
+
+        // 각 이미지의 src 속성 변경
+        icons.forEach(icon => {
+          const imgSrc = icon.src;
+          icon.src = imgSrc.replace('_w.png', '_b.png');
+        });
+      } else {
+        header.classList.remove('sticky');
+
+        // 이미지 원래대로 복원
+        icons.forEach(icon => {
+          const imgSrc = icon.src;
+          icon.src = imgSrc.replace('_b.png', '_w.png');
+        });
+      }
+
+      lastScrollY = currentScrollY;
+    });
+
+
+    // Intersection Observer for Fade-in Animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right').forEach(el => {
+      observer.observe(el);
+    });
+
+    // Smooth Scroll for Anchor Links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href !== '#') {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            const headerHeight = header.offsetHeight;
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+            window.scrollTo({
+              top: targetPosition,
+              behavior: 'smooth'
+            });
+          }
+        }
+      });
+    });
+
+    // Number Counter Animation
+    function animateCounter(element, target, duration = 2000) {
+      let start = 0;
+      const suffix = element.textContent.includes('+') ? '+' : '';
+      const isPercentage = element.textContent.includes('%');
+      const increment = target / (duration / 16);
+
+      function updateCounter() {
+        start += increment;
+        if (start < target) {
+          if (isPercentage) {
+            element.textContent = Math.floor(start) + '%';
+          } else {
+            element.textContent = Math.floor(start).toLocaleString() + suffix;
+          }
+          requestAnimationFrame(updateCounter);
+        } else {
+          if (isPercentage) {
+            element.textContent = target + '%';
+          } else {
+            element.textContent = target.toLocaleString() + suffix;
+          }
+        }
+      }
+
+      updateCounter();
+    }
+
+    // Stats Counter Observer
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const statNumbers = entry.target.querySelectorAll('.stat-number');
+          statNumbers.forEach(stat => {
+            const text = stat.textContent;
+            if (text.includes('18')) {
+              animateCounter(stat, 18);
+            } else if (text.includes('5,000')) {
+              animateCounter(stat, 5000);
+            } else if (text.includes('100')) {
+              animateCounter(stat, 100);
+            }
+          });
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    const statsList = document.querySelector('.stats-list');
+    if (statsList) {
+      statsObserver.observe(statsList);
+    }
+
+    // Product Card Hover Effect Enhancement
+    document.querySelectorAll('.product-card').forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-8px)';
+        this.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.12)';
+      });
+
+      card.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0)';
+        this.style.boxShadow = 'none';
+      });
+    });
+
+    // Button Ripple Effect
+    document.querySelectorAll('.btn, .btn-download, .btn-dark').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        const ripple = document.createElement('span');
+        const rect = this.getBoundingClientRect();
+        const size = Math.max(rect.width, rect.height);
+        const x = e.clientX - rect.left - size / 2;
+        const y = e.clientY - rect.top - size / 2;
+
+        ripple.style.cssText = `
+          position: absolute;
+          width: ${size}px;
+          height: ${size}px;
+          left: ${x}px;
+          top: ${y}px;
+          background: rgba(255,255,255,0.3);
+          border-radius: 50%;
+          transform: scale(0);
+          animation: ripple 0.6s ease-out;
+          pointer-events: none;
+        `;
+
+        this.style.position = 'relative';
+        this.style.overflow = 'hidden';
+        this.appendChild(ripple);
+
+        setTimeout(() => ripple.remove(), 600);
+      });
+    });
+
+    // Add ripple animation keyframes
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes ripple {
+        to {
+          transform: scale(4);
+          opacity: 0;
+        }
+      }
+    `;
+    document.head.appendChild(style);
+
+    // Parallax Effect for Hero
+    window.addEventListener('scroll', () => {
+      const hero = document.querySelector('.hero');
+      const scrolled = window.pageYOffset;
+      if (hero && scrolled < hero.offsetHeight) {
+        hero.style.backgroundPositionY = scrolled * 0.5 + 'px';
+      }
+    });
+
+    // Lazy loading images
+    if ('IntersectionObserver' in window) {
+      const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            if (img.dataset.src) {
+              img.src = img.dataset.src;
+              img.removeAttribute('data-src');
+            }
+            observer.unobserve(img);
+          }
+        });
+      });
+
+      document.querySelectorAll('img[data-src]').forEach(img => {
+        imageObserver.observe(img);
+      });
+    }
+  </script>
+  </script>
+</body>
+</html>
