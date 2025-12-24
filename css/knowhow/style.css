@@ -1,0 +1,1203 @@
+* {margin: 0; padding:0 ;}
+.sub-page-2,
+.sub-page-2 * {
+  box-sizing: border-box;
+}
+.sub-page-2 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 1280px;
+  max-width: 1920px;
+  position: relative;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-64 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div {
+  background: rgba(239, 239, 239, 0.2);
+  padding: 8px 80px 8px 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1920px;
+  position: relative;
+}
+.frame-53 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 677.5px;
+  position: relative;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo-symbol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.symbol-1 {
+  flex-shrink: 0;
+  width: 45px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 45/24;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.div3 {
+  color: #161616;
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.utility {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-search-b {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.i {
+  width: 16px;
+  height: 25px;
+  position: absolute;
+  left: 8px;
+  top: 4px;
+}
+.svg {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+.frame {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.icon-login-b {
+  flex-shrink: 0;
+  width: 30px;
+  height: 32px;
+  position: relative;
+}
+.i2 {
+  width: 14px;
+  height: 25px;
+  position: absolute;
+  left: 8px;
+  top: 4px;
+}
+.svg2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+.frame2 {
+  flex-shrink: 0;
+  width: 14px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.icon-wish-b {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.frame3 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.icon-basket-b {
+  flex-shrink: 0;
+  width: 34px;
+  height: 32px;
+  position: relative;
+}
+.i3 {
+  width: 18px;
+  height: 25px;
+  position: absolute;
+  left: 8px;
+  top: 4px;
+}
+.svg3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+.frame4 {
+  flex-shrink: 0;
+  width: 18px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.span {
+  background: #d73b35;
+  border-radius: 9999px;
+  padding: 0px 1px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 20px;
+  top: -3px;
+  aspect-ratio: 1;
+}
+._3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.visual {background: url(/images/knowhow/visual0.png) center;
+         background-size: cover;
+         background-repeat: no-repeat;
+        
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 400px;
+  position: relative;
+}
+.frame-427319059 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+.vector-2 {
+  flex-shrink: 0;
+  width: 6px;
+  height: 12px;
+  position: relative;
+  overflow: visible;
+}
+.div4 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+.vector-3 {
+  flex-shrink: 0;
+  width: 6px;
+  height: 12px;
+  position: relative;
+  overflow: visible;
+}
+.frame-427319053 {
+  background: rgba(95, 95, 95, 0.2);
+  border-radius: 16px;
+  padding: 40px 160px 40px 160px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+}
+.div5 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "BookkMyungjo-Bold", sans-serif;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gnb {
+  background: #f1f1f1;
+  padding: 24px 447px 24px 447px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div6 {
+  color: #888888;
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.div7 {
+  color: #161616;
+  text-align: left;
+  font-family: "Paperlogy-5Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.section {background: url(/images/knowhow/section0.png) center; background-size: cover; background-repeat: no-repeat;
+        
+  padding: 80px 0px 80px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-427319058 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1280px;
+  max-width: 1280px;
+  position: relative;
+}
+.div8 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.div9 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BookkMyungjo-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div10 {
+  color: #d9d9d9;
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.div11 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1295px;
+  position: relative;
+}
+.frame-427319071 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div12 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 1;
+  height: 280px;
+  position: relative;
+}
+.div13 {
+  background: rgba(107, 142, 90, 0.4);
+  border-radius: 12px;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.frame5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-427319070 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div14 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Paperlogy-6SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.io-t {
+  color: #888888;
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame6 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.div15 {
+  color: #888888;
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame-427319072 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div16 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 41px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  height: 280px;
+  position: relative;
+}
+.frame7 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame8 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.section2 {
+  background: #fbfbfa;
+  padding: 160px 144px 160px 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div17 {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1280px;
+  position: relative;
+}
+.div18 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.div19 {
+  color: #161616;
+  text-align: left;
+  font-family: "BookkMyungjo-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+}
+.div20 {
+  color: #888888;
+  text-align: center;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.div21 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div22 {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px 28px 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 192px;
+  position: relative;
+}
+.div23 {
+  background: rgba(135, 169, 107, 0.1);
+  border-radius: 9999px;
+  padding: 22px 25px 22px 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 74px;
+  height: 74px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.frame9 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-427319073 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div24 {
+  color: #161616;
+  text-align: center;
+  font-family: "Paperlogy-5Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.div25 {
+  color: #888888;
+  text-align: center;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame10 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame11 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame12 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame13 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame14 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.section-box {
+  background: #ffffff;
+  padding: 160px 0px 160px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-427319074 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div26 {
+  color: #161616;
+  text-align: center;
+  font-family: "BookkMyungjo-Bold", sans-serif;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-427319069 {
+  background: #fbfbfa;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 4px 16px 0px rgba(107, 142, 90, 0.2);
+}
+.logo-symbol2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 160px;
+  position: relative;
+}
+.symbol-12 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 85.44px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 160/85.44;
+}
+.div27 {
+  border-radius: 999px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div28 {
+  color: var(--primary, #4a5942);
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame15 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.footer {
+  background: #53644a;
+  padding: 48px 160px 48px 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div29 {
+  background: rgba(0, 0, 0, 0);
+  padding: 0px 0px 24px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div30 {
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.logo2 {
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div31 {
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div32 {
+  background: rgba(0, 0, 0, 0);
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.i4 {
+  background: rgba(0, 0, 0, 0);
+  width: 16px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: -4px;
+}
+.icon-facebook {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+.frame16 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.div33 {
+  background: rgba(0, 0, 0, 0);
+  flex-shrink: 0;
+  width: 14px;
+  height: 16px;
+  position: relative;
+}
+.i5 {
+  background: rgba(0, 0, 0, 0);
+  width: 14px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: -4px;
+}
+.icon-insta {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+.frame17 {
+  flex-shrink: 0;
+  width: 14px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.div34 {
+  background: rgba(0, 0, 0, 0);
+  flex-shrink: 0;
+  width: 18px;
+  height: 16px;
+  position: relative;
+}
+.i6 {
+  background: rgba(0, 0, 0, 0);
+  width: 18px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: -4px;
+}
+.icon-youtube {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+.frame18 {
+  flex-shrink: 0;
+  width: 18px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.div35 {
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 284px;
+  position: relative;
+}
+.div36 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Paperlogy-5Medium", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div37 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div38 {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._123-45-67890 {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._487-91 {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._043-534-2557 {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div39 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div40 {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 284px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact-us {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 284px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.faq {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 284px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._1-1 {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 284px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div41 {
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-width: 1px 0px 0px 0px;
+  padding: 16px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._2025-tium-co-all-rights-reserved {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font-family: "Paperlogy-4Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
