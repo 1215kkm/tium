@@ -45,7 +45,7 @@ ul, ol { list-style: none; }
 img { max-width: 100%; height: auto; }
 button { cursor: pointer; border: none; background: none; }
 
-.sub-page {
+.intro-page {
   background: var(--bg-white);
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@ button { cursor: pointer; border: none; background: none; }
   margin: 0 auto;
 }
 
-.main {
+.intro-main {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -62,7 +62,7 @@ button { cursor: pointer; border: none; background: none; }
 }
 
 /* Header */
-.header-wrap {
+.intro-header-wrap {
   background: rgba(239, 239, 239, 0.2);
   padding: 8px 80px;
   display: flex;
@@ -71,18 +71,18 @@ button { cursor: pointer; border: none; background: none; }
   width: 100%;
 }
 
-.header-inner {
+.intro-header-inner {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.logo {
+.intro-logo {
   display: flex;
   align-items: center;
 }
 
-.logo-symbol {
+.intro-logo-symbol {
   width: 48px;
   height: 48px;
   display: flex;
@@ -90,18 +90,18 @@ button { cursor: pointer; border: none; background: none; }
   justify-content: center;
 }
 
-.logo-symbol img {
+.intro-logo-symbol img {
   width: 45px;
   height: 24px;
   object-fit: cover;
 }
 
-.nav-list {
+.intro-nav-list {
   display: flex;
   gap: 32px;
 }
 
-.nav-item a {
+.intro-nav-item a {
   color: var(--text-dark);
   font-size: 16px;
   line-height: 20px;
@@ -110,17 +110,17 @@ button { cursor: pointer; border: none; background: none; }
   transition: color 0.3s;
 }
 
-.nav-item a:hover {
+.intro-nav-item a:hover {
   color: var(--secondary);
 }
 
-.utility {
+.intro-utility {
   display: flex;
   gap: 16px;
   align-items: center;
 }
 
-.icon-btn {
+.intro-icon-btn {
   width: 32px;
   height: 32px;
   display: flex;
@@ -129,12 +129,12 @@ button { cursor: pointer; border: none; background: none; }
   position: relative;
 }
 
-.icon-btn img {
+.intro-icon-btn img {
   width: 16px;
   height: 16px;
 }
 
-.cart-badge {
+.intro-cart-badge {
   position: absolute;
   top: -3px;
   right: -4px;
@@ -149,21 +149,21 @@ button { cursor: pointer; border: none; background: none; }
   color: #fff;
 }
 
-.mobile-menu-btn {
+.intro-mobile-menu-btn {
   display: none;
   flex-direction: column;
   gap: 5px;
   padding: 10px;
 }
 
-.mobile-menu-btn span {
+.intro-mobile-menu-btn span {
   width: 25px;
   height: 2px;
   background: var(--text-dark);
 }
 
 /* Visual Section */
-.visual {
+.intro-visual {
   background: url(/images/introduce/visual0.png) center/cover no-repeat;
   padding: 24px 20px;
   display: flex;
@@ -174,27 +174,27 @@ button { cursor: pointer; border: none; background: none; }
   position: relative;
 }
 
-.breadcrumb ol {
+.intro-breadcrumb ol {
   display: flex;
   gap: 12px;
   align-items: center;
 }
 
-.breadcrumb li {
+.intro-breadcrumb li {
   color: #fff;
   font-size: 14px;
 }
 
-.breadcrumb a {
+.intro-breadcrumb a {
   color: #fff;
 }
 
-.breadcrumb img {
+.intro-breadcrumb img {
   width: 6px;
   height: 12px;
 }
 
-.visual-title-wrap {
+.intro-visual-title-wrap {
   background: rgba(95, 95, 95, 0.2);
   border-radius: 16px;
   padding: 40px 160px;
@@ -204,7 +204,7 @@ button { cursor: pointer; border: none; background: none; }
   transform: translate(-50%, -50%);
 }
 
-.visual-title {
+.intro-visual-title {
   color: #fff;
   font-family: 'BookkMyungjo', serif;
   font-size: 40px;
@@ -214,30 +214,30 @@ button { cursor: pointer; border: none; background: none; }
 }
 
 /* Sub Navigation */
-.gnb {
+.intro-gnb {
   background: #f1f1f1;
   padding: 24px 20px;
 }
 
-.gnb-list {
+.intro-gnb-list {
   display: flex;
   gap: 100px;
   justify-content: center;
 }
 
-.gnb-link {
+.intro-gnb-link {
   color: var(--text-gray);
   font-size: 16px;
   transition: color 0.3s;
 }
 
-.gnb-link.active {
+.intro-gnb-link.active {
   color: var(--text-dark);
   font-weight: 500;
 }
 
 /* Hero Section */
-.section {
+.intro-section {
   background: url(/images/introduce/section0.png) center/cover no-repeat;
   padding: 80px 20px;
   min-height: 800px;
@@ -246,13 +246,13 @@ button { cursor: pointer; border: none; background: none; }
   justify-content: center;
 }
 
-.section-inner {
+.intro-section-inner {
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
 }
 
-.hero-section .section-inner {
+.intro-hero-section .intro-section-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -278,56 +278,56 @@ button { cursor: pointer; border: none; background: none; }
   line-height: 24px;
 }
 
-.intro-logo {
+.intro-hero-logo {
   width: 480px;
   flex-shrink: 0;
 }
 
-.intro-logo img {
+.intro-hero-logo img {
   width: 100%;
   height: auto;
 }
 
 /* Brand Section */
-.section-box {
+.intro-section-box {
   background: var(--bg-white);
   padding: 160px 20px;
 }
 
-.section-header {
+.intro-section-header {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.brand-intro {
+.intro-brand-intro {
   font-family: 'BookkMyungjo', serif;
   font-size: 24px;
   line-height: 48px;
   color: var(--text-dark);
 }
 
-.brand-intro strong {
+.intro-brand-intro strong {
   font-size: 32px;
   font-weight: 700;
 }
 
-.brand-image {
+.intro-brand-image {
   border-radius: 16px;
   overflow: hidden;
 }
 
-.brand-image img {
+.intro-brand-image img {
   width: 100%;
   height: auto;
 }
 
 /* Principles Section */
-.section-box2 {
+.intro-section-box2 {
   background: var(--bg-light);
   padding: 160px 20px;
 }
 
-.section-desc {
+.intro-section-desc {
   font-family: 'BookkMyungjo', serif;
   font-size: 24px;
   line-height: 48px;
@@ -335,32 +335,32 @@ button { cursor: pointer; border: none; background: none; }
   text-align: center;
 }
 
-.principles-list {
+.intro-principles-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-top: 40px;
 }
 
-.principle-card {
+.intro-principle-card {
   border-radius: 16px;
   padding: 40px 80px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-.principle-card.card1 {
+.intro-principle-card.intro-card1 {
   background: linear-gradient(84.15deg, rgba(167, 190, 155, 1) 0%, rgba(73, 95, 61, 1) 100%);
 }
 
-.principle-card.card2 {
+.intro-principle-card.intro-card2 {
   background: linear-gradient(84.15deg, rgba(102, 151, 118, 1) 0%, rgba(90, 142, 99, 1) 100%);
 }
 
-.principle-card.card3 {
+.intro-principle-card.intro-card3 {
   background: linear-gradient(84.15deg, rgba(89, 172, 147, 1) 0%, rgba(100, 131, 134, 1) 100%);
 }
 
-.principle-content h3 {
+.intro-principle-content h3 {
   font-size: 32px;
   font-weight: 600;
   color: #fff;
@@ -368,7 +368,7 @@ button { cursor: pointer; border: none; background: none; }
   margin-bottom: 20px;
 }
 
-.principle-content p {
+.intro-principle-content p {
   font-size: 16px;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.8);
@@ -376,82 +376,82 @@ button { cursor: pointer; border: none; background: none; }
 }
 
 /* Customers Section */
-.customers-section .section-header {
+.intro-customers-section .intro-section-header {
   margin-bottom: 40px;
 }
 
-.section-title {
+.intro-section-title {
   font-family: 'BookkMyungjo', serif;
   font-size: 24px;
   line-height: 48px;
   color: var(--text-dark);
 }
 
-.customers-grid {
+.intro-customers-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 
-.customer-card {
+.intro-customer-card {
   background: var(--bg-light);
   border-radius: 8px;
   padding: 12px;
   box-shadow: 0px 4px 16px rgba(74, 89, 66, 0.2);
 }
 
-.customer-image {
+.intro-customer-image {
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 24px;
   height: 260px;
 }
 
-.customer-image img {
+.intro-customer-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.customer-info {
+.intro-customer-info {
   text-align: center;
   padding-bottom: 12px;
 }
 
-.customer-info h3 {
+.intro-customer-info h3 {
   font-size: 20px;
   font-weight: 500;
   color: var(--text-dark);
   margin-bottom: 8px;
 }
 
-.customer-info p {
+.intro-customer-info p {
   font-size: 14px;
   color: var(--text-gray);
 }
 
 /* Delivery Section */
-.delivery-section .section-inner {
+.intro-delivery-section .intro-section-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 80px;
 }
 
-.delivery-image {
+.intro-delivery-image {
   max-width: 1024px;
 }
 
-.delivery-image img {
+.intro-delivery-image img {
   width: 100%;
   height: auto;
 }
 
-.delivery-content {
+.intro-delivery-content {
   text-align: center;
 }
 
-.delivery-divider {
+.intro-delivery-divider {
   width: 80px;
   height: 4px;
   background: var(--secondary);
@@ -460,14 +460,14 @@ button { cursor: pointer; border: none; background: none; }
 }
 
 /* CTA Section */
-.section-box3 {
+.intro-section-box3 {
   background: var(--bg-white);
   padding: 160px 20px;
   display: flex;
   justify-content: center;
 }
 
-.cta-content {
+.intro-cta-content {
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -475,7 +475,7 @@ button { cursor: pointer; border: none; background: none; }
   text-align: center;
 }
 
-.cta-title {
+.intro-cta-title {
   font-family: 'BookkMyungjo', serif;
   font-size: 40px;
   line-height: 56px;
@@ -483,7 +483,7 @@ button { cursor: pointer; border: none; background: none; }
   color: var(--text-dark);
 }
 
-.cta-link {
+.intro-cta-link {
   background: var(--bg-light);
   border-radius: 16px;
   padding: 24px 40px;
@@ -494,49 +494,49 @@ button { cursor: pointer; border: none; background: none; }
   transition: transform 0.3s;
 }
 
-.cta-link:hover {
+.intro-cta-link:hover {
   transform: translateY(-4px);
 }
 
-.cta-logo {
+.intro-cta-logo {
   width: 160px;
 }
 
-.cta-logo img {
+.intro-cta-logo img {
   width: 100%;
   height: auto;
 }
 
-.cta-link span {
+.intro-cta-link span {
   color: var(--primary);
   font-size: 20px;
 }
 
 /* Footer */
-.footer {
+.intro-footer {
   background: var(--footer-bg);
   padding: 48px 160px;
 }
 
-.footer-inner {
+.intro-footer-inner {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
   gap: 32px;
   padding-bottom: 24px;
 }
 
-.footer-brand {
+.intro-footer-brand {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.footer-social ul {
+.intro-footer-social ul {
   display: flex;
   gap: 16px;
 }
 
-.footer-social a {
+.intro-footer-social a {
   width: 16px;
   height: 16px;
   display: flex;
@@ -545,51 +545,51 @@ button { cursor: pointer; border: none; background: none; }
   transition: transform 0.3s;
 }
 
-.footer-social a:hover {
+.intro-footer-social a:hover {
   transform: scale(1.2);
 }
 
-.footer-column h4 {
+.intro-footer-column h4 {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-.footer-links {
+.intro-footer-links {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.footer-links a,
-.footer-links span {
+.intro-footer-links a,
+.intro-footer-links span {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 20px;
 }
 
-.footer-links a:hover {
+.intro-footer-links a:hover {
   color: #fff;
 }
 
-.footer-bottom {
+.intro-footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 16px;
 }
 
-.footer-bottom p {
+.intro-footer-bottom p {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
 }
 
 /* ==================== Responsive - Tablet Large ==================== */
 @media (max-width: 1280px) {
-  .header-wrap {
+  .intro-header-wrap {
     padding: 8px 40px;
   }
 
-  .hero-section .section-inner {
+  .intro-hero-section .intro-section-inner {
     flex-direction: column;
     text-align: center;
   }
@@ -598,52 +598,52 @@ button { cursor: pointer; border: none; background: none; }
     max-width: 100%;
   }
 
-  .intro-logo {
+  .intro-hero-logo {
     width: 100%;
     max-width: 400px;
   }
 
-  .customers-grid {
+  .intro-customers-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .footer {
+  .intro-footer {
     padding: 48px 40px;
   }
 
-  .footer-inner {
+  .intro-footer-inner {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* ==================== Responsive - Tablet ==================== */
 @media (max-width: 1024px) {
-  .nav-list {
+  .intro-nav-list {
     display: none;
   }
 
-  .mobile-menu-btn {
+  .intro-mobile-menu-btn {
     display: flex;
   }
 
-  .visual {
+  .intro-visual {
     height: 350px;
   }
 
-  .visual-title-wrap {
+  .intro-visual-title-wrap {
     padding: 30px 60px;
   }
 
-  .visual-title {
+  .intro-visual-title {
     font-size: 32px;
     line-height: 44px;
   }
 
-  .gnb-list {
+  .intro-gnb-list {
     gap: 40px;
   }
 
-  .section {
+  .intro-section {
     padding: 60px 20px;
     min-height: auto;
   }
@@ -653,66 +653,66 @@ button { cursor: pointer; border: none; background: none; }
     line-height: 40px;
   }
 
-  .section-box,
-  .section-box2,
-  .section-box3 {
+  .intro-section-box,
+  .intro-section-box2,
+  .intro-section-box3 {
     padding: 100px 20px;
   }
 
-  .brand-intro {
+  .intro-brand-intro {
     font-size: 20px;
     line-height: 36px;
   }
 
-  .brand-intro strong {
+  .intro-brand-intro strong {
     font-size: 26px;
   }
 
-  .section-desc {
+  .intro-section-desc {
     font-size: 20px;
     line-height: 36px;
   }
 
-  .principle-card {
+  .intro-principle-card {
     padding: 30px 40px;
   }
 
-  .principle-content h3 {
+  .intro-principle-content h3 {
     font-size: 24px;
   }
 }
 
 /* ==================== Responsive - Mobile ==================== */
 @media (max-width: 768px) {
-  .header-wrap {
+  .intro-header-wrap {
     padding: 8px 20px;
   }
 
-  .visual {
+  .intro-visual {
     height: 300px;
   }
 
-  .visual-title-wrap {
+  .intro-visual-title-wrap {
     padding: 20px 30px;
     width: calc(100% - 40px);
   }
 
-  .visual-title {
+  .intro-visual-title {
     font-size: 24px;
     line-height: 36px;
   }
 
-  .breadcrumb {
+  .intro-breadcrumb {
     display: none;
   }
 
-  .gnb-list {
+  .intro-gnb-list {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .gnb-link {
+  .intro-gnb-link {
     font-size: 14px;
   }
 
@@ -727,94 +727,94 @@ button { cursor: pointer; border: none; background: none; }
     line-height: 22px;
   }
 
-  .section-box,
-  .section-box2,
-  .section-box3 {
+  .intro-section-box,
+  .intro-section-box2,
+  .intro-section-box3 {
     padding: 80px 20px;
   }
 
-  .brand-intro {
+  .intro-brand-intro {
     font-size: 18px;
     line-height: 32px;
   }
 
-  .brand-intro strong {
+  .intro-brand-intro strong {
     font-size: 22px;
   }
 
-  .section-desc {
+  .intro-section-desc {
     font-size: 16px;
     line-height: 28px;
   }
 
-  .principle-card {
+  .intro-principle-card {
     padding: 24px;
   }
 
-  .principle-content h3 {
+  .intro-principle-content h3 {
     font-size: 20px;
     margin-bottom: 16px;
   }
 
-  .principle-content p {
+  .intro-principle-content p {
     font-size: 14px;
   }
 
-  .section-title {
+  .intro-section-title {
     font-size: 20px;
     line-height: 32px;
   }
 
-  .customers-grid {
+  .intro-customers-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
 
-  .customer-card {
+  .intro-customer-card {
     padding: 8px;
   }
 
-  .customer-image {
+  .intro-customer-image {
     height: 180px;
     margin-bottom: 16px;
   }
 
-  .customer-info h3 {
+  .intro-customer-info h3 {
     font-size: 16px;
   }
 
-  .customer-info p {
+  .intro-customer-info p {
     font-size: 12px;
   }
 
-  .delivery-section .section-inner {
+  .intro-delivery-section .intro-section-inner {
     gap: 40px;
   }
 
-  .cta-title {
+  .intro-cta-title {
     font-size: 28px;
     line-height: 40px;
   }
 
-  .cta-link {
+  .intro-cta-link {
     flex-direction: column;
     gap: 20px;
     padding: 24px;
   }
 
-  .cta-logo {
+  .intro-cta-logo {
     width: 120px;
   }
 
-  .cta-link span {
+  .intro-cta-link span {
     font-size: 16px;
   }
 
-  .footer {
+  .intro-footer {
     padding: 40px 20px;
   }
 
-  .footer-inner {
+  .intro-footer-inner {
     grid-template-columns: 1fr;
     gap: 30px;
   }
@@ -822,24 +822,24 @@ button { cursor: pointer; border: none; background: none; }
 
 /* ==================== Responsive - Mobile Small ==================== */
 @media (max-width: 480px) {
-  .visual-title {
+  .intro-visual-title {
     font-size: 20px;
     line-height: 30px;
   }
 
-  .gnb-list {
+  .intro-gnb-list {
     gap: 15px;
   }
 
-  .customers-grid {
+  .intro-customers-grid {
     grid-template-columns: 1fr;
   }
 
-  .customer-image {
+  .intro-customer-image {
     height: 200px;
   }
 
-  .cta-title {
+  .intro-cta-title {
     font-size: 22px;
     line-height: 32px;
   }
