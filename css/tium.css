@@ -46,7 +46,7 @@
 
  html { scroll-behavior: smooth; } 
 
- body { font-family: 'Paperlogy', sans-serif; font-weight: 400; color: var(--text-dark); line-height: 1.6; overflow-x: hidden; } 
+ body { font-family: 'Paperlogy', sans-serif; font-weight: 400; color: var(--text-dark); line-height: 1.6; overflow-x: hidden; background: rgba(239, 239, 239, 0.2);} 
 
  a { text-decoration: none; color: inherit; transition: color 0.3s ease; } 
 
@@ -573,7 +573,7 @@
 
  /* 티움소개 */
  
-.intro-page { background: var(--bg-white); display: flex; flex-direction: column; width: 100%; max-width: 1920px; margin: 0 auto; } 
+.intro-page {display: flex; flex-direction: column; width: 100%; max-width: 1920px; margin: 0 auto; } 
 
 .intro-main { display: flex; flex-direction: column; width: 100%; overflow: hidden; } 
 
@@ -610,13 +610,13 @@
 .intro-visual { background: url(/images/introduce/visual0.png) center/cover no-repeat; padding: 24px 20px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 400px; position: relative; } 
 .intro-visual::before {content:""; position: absolute; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); left: 0; top: 0; }
 
-.intro-breadcrumb ol { display: flex; gap: 12px; align-items: center; position: relative; ndex: 5; } 
+.breadcrumb ol { display: flex; gap: 12px; align-items: center; position: relative; ndex: 5; } 
 
-.intro-breadcrumb li { color: #fff; font-size: 14px; } 
+.breadcrumb li { color: #fff; font-size: 14px; display: flex;} 
 
-.intro-breadcrumb a { color: #fff; } 
+.breadcrumb a { color: #fff; } 
 
-.intro-breadcrumb img { width: 6px; height: 12px; } 
+.breadcrumb img { width: 6px; height: 12px; } 
 
 .intro-visual-title-wrap {border-radius: 16px; padding: 40px 150px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 1000px; } 
 
@@ -814,7 +814,7 @@
 
  .intro-visual-title { font-size: 24px; line-height: 36px; } 
 
- .intro-breadcrumb { display: none; } 
+.breadcrumb { display: none; } 
 
  .intro-gnb-list { gap: 20px; flex-wrap: wrap; justify-content: center; } 
 
@@ -933,13 +933,6 @@
 .dir-visual { background: url('/images/direction/visual0.png') center/cover no-repeat; padding: 24px 20px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 400px; position: relative; } 
 .dir-visual::before {content:""; position: absolute; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); left: 0; top: 0; }
 
-.dir-breadcrumb ol { display: flex; gap: 12px; align-items: center; position: relative; z-index: 5;} 
-
-.dir-breadcrumb li { color: #fff; font-size: 14px; } 
-
-.dir-breadcrumb a { color: #fff; } 
-
-.dir-breadcrumb img { width: 6px; height: 12px; } 
 
 .dir-visual-title-wrap { background: rgba(95, 95, 95, 0.2); border-radius: 16px; padding: 40px 100px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 1000px;} 
 
@@ -1068,7 +1061,6 @@
 
  .dir-visual-title { font-size: 24px; line-height: 36px; } 
 
- .dir-breadcrumb { display: none; } 
 
  .dir-gnb-list { gap: 20px; flex-wrap: wrap; justify-content: center; } 
 
@@ -1158,13 +1150,6 @@
 .know-visual { background: url(/images/knowhow/visual0.png) center/cover no-repeat; padding: 24px 20px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 400px; position: relative; } 
 .know-visual::before {content:""; position: absolute; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); left: 0; top: 0; }
 
-.know-breadcrumb ol { display: flex; gap: 12px; align-items: center; position: relative; z-index: 5;} 
-
-.know-breadcrumb li { color: #fff; font-size: 14px; } 
-
-.know-breadcrumb a { color: #fff; } 
-
-.know-breadcrumb img { width: 6px; height: 12px; } 
 
 .know-visual-title-wrap { background: rgba(95, 95, 95, 0.2); border-radius: 16px; padding: 40px 100px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 1000px;} 
 
@@ -1319,7 +1304,6 @@
 
  .know-visual-title { font-size: 24px; line-height: 36px; } 
 
- .know-breadcrumb { display: none; } 
 
  .know-gnb-list { gap: 20px; flex-wrap: wrap; justify-content: center; } 
 
