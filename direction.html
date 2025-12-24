@@ -80,7 +80,7 @@
       <section class="dir-section dir-location-section">
         <div class="dir-section-inner">
           <div class="dir-location-content">
-            <article class="dir-location-info">
+            <article class="dir-location-info fade-in-left">
               <h2 class="dir-section-title">찾아오시는 길</h2>
               <ul class="dir-info-list">
                 <li class="dir-info-item">
@@ -112,7 +112,7 @@
                 </li>
               </ul>
             </article>
-            <figure class="dir-location-map">
+            <figure class="dir-location-map fade-in-right">
               <img src="/images/direction/div30.png" alt="티움 위치 지도">
             </figure>
           </div>
@@ -121,7 +121,7 @@
 
       <!-- CTA Section -->
       <section class="dir-section-box">
-        <div class="dir-cta-content">
+        <div class="dir-cta-content fade-in">
           <p class="dir-cta-title">모종의 차이가 수확의 차이를 만듭니다.</p>
           <a href="/introduce.html" class="dir-cta-link">
             <figure class="dir-cta-logo">
@@ -182,5 +182,25 @@
       </div>
     </footer>
   </div>
+
+  <script>
+    // Intersection Observer for Scroll Animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
 </body>
 </html>

@@ -77,13 +77,13 @@
 
         <!-- Technology Section -->
         <section class="know-section know-tech-section">
-          <header class="know-section-header">
+          <header class="know-section-header fade-in">
             <h2 class="know-section-title">티움프러그만의 차별화된 생산 시스템</h2>
             <p class="know-section-desc">스마트팜 기술과 표준화된 관리 시스템을 통해 재배 환경과 규모에 관계없이 안정적인 모종을 제공합니다.</p>
           </header>
           <div class="know-tech-grid">
             <ul class="know-tech-row">
-              <li class="know-tech-card glass">
+              <li class="know-tech-card glass fade-in">
                 <figure class="know-tech-icon">
                   <img src="/images/knowhow/frame4.svg" alt="">
                 </figure>
@@ -92,7 +92,7 @@
                   <p>IoT·환경제어 시스템으로 온도/습도/광량을 자동 최적화.<br>계절/품종별 생육 데이터를 활용한 생육 안정성 확보</p>
                 </article>
               </li>
-              <li class="know-tech-card glass">
+              <li class="know-tech-card glass fade-in">
                 <figure class="know-tech-icon">
                   <img src="/images/knowhow/frame5.svg" alt="">
                 </figure>
@@ -103,7 +103,7 @@
               </li>
             </ul>
             <ul class="know-tech-row">
-              <li class="know-tech-card glass">
+              <li class="know-tech-card glass fade-in">
                 <figure class="know-tech-icon">
                   <img src="/images/knowhow/frame6.svg" alt="">
                 </figure>
@@ -112,7 +112,7 @@
                   <p>필요 수량·납기일자 맞춤 생산 가능<br>병충해·재배환경에 대한 상담 지원</p>
                 </article>
               </li>
-              <li class="know-tech-card glass">
+              <li class="know-tech-card glass fade-in">
                 <figure class="know-tech-icon">
                   <img src="/images/knowhow/frame7.svg" alt="">
                 </figure>
@@ -129,12 +129,12 @@
       <!-- Varieties Section -->
       <section class="know-section2 know-variety-section">
         <div class="know-section-inner">
-          <header class="know-section-header">
+          <header class="know-section-header fade-in">
             <h2 class="know-section-title dark">생산 가능한 다양한 품종</h2>
             <p class="know-section-desc">수박·참외·멜론·고추·토마토 등 주요 품종을 생산하며, 이 외에도 농가 요구에 맞춘 품종 추가가 가능합니다.</p>
           </header>
           <ul class="know-variety-grid">
-            <li class="know-variety-card">
+            <li class="know-variety-card fade-in">
               <figure class="know-variety-icon">
                 <img src="/images/knowhow/frame8.svg" alt="">
               </figure>
@@ -143,7 +143,7 @@
                 <p>겨자, 배추, 상추 등의 잎채소</p>
               </article>
             </li>
-            <li class="know-variety-card">
+            <li class="know-variety-card fade-in">
               <figure class="know-variety-icon">
                 <img src="/images/knowhow/frame9.svg" alt="">
               </figure>
@@ -152,7 +152,7 @@
                 <p>수박, 토마토, 딸기 등의 열매 수확 작물</p>
               </article>
             </li>
-            <li class="know-variety-card">
+            <li class="know-variety-card fade-in">
               <figure class="know-variety-icon">
                 <img src="/images/knowhow/frame10.svg" alt="">
               </figure>
@@ -161,7 +161,7 @@
                 <p>참외, 오이 등 덩굴성 식물</p>
               </article>
             </li>
-            <li class="know-variety-card">
+            <li class="know-variety-card fade-in">
               <figure class="know-variety-icon">
                 <img src="/images/knowhow/frame11.svg" alt="">
               </figure>
@@ -170,7 +170,7 @@
                 <p>청양 고추, 홍고추 등의 고추 품종</p>
               </article>
             </li>
-            <li class="know-variety-card">
+            <li class="know-variety-card fade-in">
               <figure class="know-variety-icon">
                 <img src="/images/knowhow/frame12.svg" alt="">
               </figure>
@@ -179,7 +179,7 @@
                 <p>바질, 고수, 민트 등의 허브류</p>
               </article>
             </li>
-            <li class="know-variety-card">
+            <li class="know-variety-card fade-in">
               <figure class="know-variety-icon">
                 <img src="/images/knowhow/frame13.svg" alt="">
               </figure>
@@ -194,7 +194,7 @@
 
       <!-- CTA Section -->
       <section class="know-section-box">
-        <div class="know-cta-content">
+        <div class="know-cta-content fade-in">
           <p class="know-cta-title">모종의 차이가 수확의 차이를 만듭니다.</p>
           <a href="/direction.html" class="know-cta-link">
             <figure class="know-cta-logo">
@@ -255,5 +255,25 @@
       </div>
     </footer>
   </div>
+
+  <script>
+    // Intersection Observer for Scroll Animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
 </body>
 </html>
