@@ -43,12 +43,25 @@
               <span class="intro-cart-badge">3</span>
             </button>
           </div>
-          <button class="intro-mobile-menu-btn" aria-label="메뉴 열기">
+          <button class="intro-mobile-menu-btn" aria-label="메뉴 열기" onclick="toggleMobileMenu()">
             <span></span>
             <span></span>
             <span></span>
           </button>
         </header>
+
+        <!-- Mobile Menu -->
+        <nav class="intro-mobile-menu" id="mobileMenu" role="navigation" aria-label="모바일 메뉴">
+          <button class="intro-mobile-menu-close" onclick="toggleMobileMenu()" aria-label="메뉴 닫기">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 6L6 18M6 6l12 12"/>
+            </svg>
+          </button>
+          <a href="/introduce.html" onclick="toggleMobileMenu()">티움 소개</a>
+          <a href="#" onclick="toggleMobileMenu()">상품</a>
+          <a href="/knowhow.html" onclick="toggleMobileMenu()">재배기술 &amp; 노하우</a>
+          <a href="#" onclick="toggleMobileMenu()">고객 지원</a>
+        </nav>
 
         <!-- Visual Section -->
         <section class="intro-visual">
@@ -269,6 +282,13 @@
   </div>
 
   <script>
+    // Mobile Menu Toggle
+    function toggleMobileMenu() {
+      const mobileMenu = document.getElementById('mobileMenu');
+      mobileMenu.classList.toggle('active');
+      document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+    }
+
     // Intersection Observer for Scroll Animations
     const observerOptions = {
       threshold: 0.1,
